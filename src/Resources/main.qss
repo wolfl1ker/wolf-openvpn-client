@@ -1,0 +1,106 @@
+/* Main styles */
+QMainWindow {
+    background-color: #0b1c40;
+    color: #ffffff;
+}
+
+QMenuBar {
+    background-color: #0b1c40;
+    color: #ffffff;
+}
+
+QMenuBar QMenu {
+    background-color: #133887;
+}
+
+QLabel {
+    padding: 2px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+/* QComboBox styles */
+QComboBox {
+    color: #ffffff;
+    background-color: #45a049;
+    font-size: 16px;
+    padding: 8px;
+}
+
+QComboBox::item {
+    color: #000000;
+}
+
+QComboBox::item:selected {
+    color: #ffffff;
+    background-color: #45a049;
+}
+
+/* QPushButton styles */
+QPushButton {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+QPushButton:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+/* Window-specific styles styles */
+ProfilesWindow {
+    background-color: #0b1c40;
+    color: #ffffff;
+}
+
+ProfilesWindow QPushButton {
+    padding: 2px;
+    border-radius: 2px;
+}
+
+ProfileDialog {
+    background-color: #0b1c40;
+    color: #ffffff;
+}
+
+ProfilesWindow QPushButton {
+    padding: 4px;
+    border-radius: 4px;
+}
+
+ProfileDialog QLineEdit {
+    padding: 6px;
+    border: none;
+    border-radius: 4px;
+}
+
+StatusWindow {
+    background-color: #0b1c40;
+    color: #ffffff;
+}
+
+AboutWindow {
+    background-color: #0b1c40;
+    color: #ffffff;
+}
+
+AboutWindow QLabel {
+    line-height: 32px;
+}
+
+QuitDialog {
+   background-color: #0b1c40;
+   color: #ffffff;
+}
+
+ErrorLabel {
+    color: #ff0000;
+}
