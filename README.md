@@ -23,7 +23,7 @@ OpenVPN3 Client for linux based systems, built on Python3 using PySide6
 
 ## Features
 
-- GUI for OpenVPN client for linux [site](https://openvpn.net/openvpn-client-for-linux/)
+- GUI for OpenVPN client for linux ([site](https://openvpn.net/openvpn-client-for-linux/))
 - Multiple connection profiles based on .ovpn configuration files, with easy selection
 - Saving configuration files within the application
 - Providing connection statistics
