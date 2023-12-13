@@ -32,8 +32,9 @@ OpenVPN3 Client for linux based systems, built on Python3 using PySide6
 
 Required:
 - [OpenVPN3 console client](https://openvpn.net/openvpn-client-for-linux/)
-- Python3
+- Python3, pip
 - _optional_ PySide6.4 or PySide6.6
+- Troubleshooting / __Linux Mint__: libxcb-cursor0
 
 ```bash
 # Example installation
